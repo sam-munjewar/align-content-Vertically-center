@@ -1,0 +1,69 @@
+ body{
+    background: #b4d7e1;
+    font-family: sans-serif;
+}
+ .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ h2{
+    text-align: center;
+    color: #424c5f;
+}
+ .box{
+    height: 200px;
+     width: 200px;
+    box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.35);
+    margin: 20px;
+    background: #FFF;
+}
+ span{
+    color: #F7855F;
+    font-size:20px;
+}
+ .box1 {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .box2 {
+    position: relative;
+}
+ .box2 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+ .box3 span{
+    display: block;
+    text-align: center;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ .box4 {
+    display: grid;
+     place-items: center;
+}
+ .box5 {
+    display:table;
+}
+ .box5 span{
+    display: table-cell;
+     vertical-align: middle;
+     text-align: center;
+}
+ .box6 {
+    line-height: 200px;
+    text-align:center;
+    /*line height must be same as box height*/
+}
+ .box7 {
+    display: grid;
+}
+ .box7 span{
+    margin: auto;
+}
